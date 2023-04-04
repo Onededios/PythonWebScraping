@@ -1,0 +1,19 @@
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/gimp/2.0/help /usr/share/gimp/2.0/help none bind,ro 0 0): cannot open directory "/var/lib": permission denied
+update.go:85: cannot change mount namespace according to change mount (/var/lib/snapd/hostfs/usr/share/xubuntu-docs /usr/share/xubuntu-docs none bind,ro 0 0): cannot open directory "/var/lib": permission denied
+1680624139623	geckodriver	INFO	Listening on 127.0.0.1:46909
+1680624140218	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "45291" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7oW3yB"
+*** You are running in headless mode.
+Gtk-Message: 18:02:20.253: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1680624140844	Marionette	INFO	Marionette enabled
+1680624140850	Marionette	INFO	Listening on port 38253
+Read port: 38253
+WebDriver BiDi listening on ws://127.0.0.1:45291
+1680624141039	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7oW3yB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45291/devtools/browser/08bd5e63-f8f8-443e-94ef-2921ed655403
+1680624149229	Marionette	INFO	Stopped listening on port 38253
